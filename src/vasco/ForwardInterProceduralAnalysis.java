@@ -70,7 +70,6 @@ public abstract class ForwardInterProceduralAnalysis<M,N,A> extends InterProcedu
 			// If this context has no more nodes to analyze, then take it out of the work-list
 			if (currentContext.getWorkList().isEmpty()) {
 				worklist.remove(currentContext);
-				continue;
 			}
 
 
